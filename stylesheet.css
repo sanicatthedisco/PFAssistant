@@ -1,0 +1,126 @@
+* {
+    font-family: Arial;
+}
+
+html, body, header, nav, article {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #DDD;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+header#spacer {
+    position: static;
+}
+
+nav, article#doc {
+    padding: 20px;
+    padding-top: 0;
+}
+
+nav {
+    float: left;
+    padding: 5px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: #EEE;
+    position: fixed;
+    height: 100%;
+}
+
+article#doc {
+    float: left;
+    width: 60%;
+    margin-left: 225px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: none;
+    -webkit-padding-start: 0px;
+}
+
+nav ul li {
+    padding: 10px 30px 10px 0px;
+    border-bottom: 2px solid #BBB;
+}
+
+nav ul li:first-child {
+    border-top: 2px solid #BBB;;
+}
+
+nav ul li span {
+    margin-left: 20px;
+}
+
+article#doc p {
+    text-indent: 30px;
+}
+
+article#timer {
+    text-align: center;
+    float: left;
+    padding: 20px;
+    padding-left: 15px;
+    padding-top: 25px;
+    position: fixed;
+    right: 0px;
+    background-color: #EEE;
+    height: 100%;
+}
+
+article#timer div#time {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+article#timer table {
+    margin: 0 auto;
+}
+
+article#timer table tr {
+    line-height: 30px;
+}
+
+tr#spacer {
+    height: 20px;
+}
+
+article#timer table tr td{
+    padding: 5px;
+    border-radius: 7px;
+    background-color: #CCC;
+    width: 100px;
+}
+
+article#timer table tr td:hover {
+    background-color: #BBB !important;
+}
+
+article#timer table tr td#start:hover {
+    background-color: #8D8  !important;
+}
+
+article#timer table tr td#stop:hover {
+    background-color: #D88 !important;
+}
+
+article#timer table tr td#start {
+    background-color: #77CC77;
+    width: 50px;
+}
+
+article#timer table tr td#stop {
+    background-color: #CC7777;
+    width: 50px;
+}
